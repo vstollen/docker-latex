@@ -17,6 +17,7 @@ ARG JRE=default-jre-headless
 
 RUN apt-get update && apt-get install -y \
   texlive-full \
+  texlive-latex-extra \
   # some auxiliary tools
   "$WGET" \
   "$GIT" \
